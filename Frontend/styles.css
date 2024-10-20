@@ -1,0 +1,30 @@
+h1 {
+  font-size: 3em;
+  color: rgb(91, 65, 133);
+  background-color: yellow;
+  text-align: center;
+  animation: fadeIn 5s;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.mainsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(91, 65, 133);
+    color: yellow;
+    padding:90px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
